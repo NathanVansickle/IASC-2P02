@@ -1,0 +1,30 @@
+body {
+    background-color: honeydew;
+    color: rgb(46, 46, 75);
+    margin: 0 auto;
+    width: fit-content;
+    text-align: left;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+li {
+    font-size: 24px;
+    list-style-type: none;
+}
+
+a {
+    color: darkcyan;
+    text-decoration: none;
+}
+
+a:hover {
+    color: cyan;
+    text-decoration: overline;
+}
