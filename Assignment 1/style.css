@@ -1,0 +1,46 @@
+body{
+    width: 40%;
+    color: white;
+    margin-left: 5%;
+    text-shadow: 0.5px 0.5px 1px #000000;
+}
+
+h1 {
+    color: rgb(89, 230, 169);
+    font-size: 48px;
+    text-align: center;
+}
+
+.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: -1;
+}
+
+h2{
+    color:rgb(112, 159, 134);
+    font-size: 28px;
+    text-align: left;
+}
+
+p{
+    
+    font-size: 18px;
+    text-align: left; 
+    margin-bottom: 24px;
+}
+
+.clickable{
+    color: rgb(90, 153, 170);
+    cursor: grab;
+}
+
+.clickable:hover{
+    color:rgb(4, 247, 255)
+}
+
+.hidden{
+    display: none;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <title>Interactive Essay</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- three.js importmap-->
+    <script type="importmap">
+        {
+            "imports":{
+                "three": "https://ga.jspm.io/npm:three@0.158.0/build/three.module.js",
+                "OrbitControls": "https://ga.jspm.io/npm:three@0.158.0/examples/jsm/controls/OrbitControls.js"
+                
+            }
+        }
+    </script>
+
+    <!-- three.js scene -->
+    <script src="script.js" type="module"></script>
+</head>
+<body>
+    <h1>Interactive Essay</h1>
+    <h2> Nathan Vansickle </h2>
+    
+    <!-- part one -->
+    <section id="part-one">
+        <h2>1. Flatness</h2>
+
+        <P>It's hard to comprehend that our perspective and view on the world may not be complete, that there may be something beyond what we are capable of seeing. This is true for the people in Plato's allegory of the cave who see the world in flat, two dimensional shadows. These cave dwellers are forced to sit and face a wall, only being allowed to look forward and observe the shadows cast on this wall. To them this cave wall and these shadows are their reality. As people who live in the third dimension we know that what the cave dwellers see is not the full picture. This can be described as being flat, both the shadow which is literally flat, as well as the cave dwellers' perspectives. Before you is a flat wall, in order to see the world as the cave dwellers do you need to add a shadow. This is a simple square shadow that moves from left to right. But what stories does it tell and what can we learn from it in this perspective?
+            <span class="clickable" id="first-change"> Add a shadow.</span></P>
+
+        <p>By adding another shadow we see that the two seem to interact with each other, almost in the way a paddle ball works. The ball is bounced off the square and then pulled back towards it to bounce again off the opposite side. 
+            When Nick Sousanis talks about “Flatness” he refers to it as a way of thinking, as well as a descriptor for understanding a person's perspective. A flat perspective is an unchallenging perspective; it simply accepts what it is seeing as being the only truth, this is the perspective that the cave dwellers have. After reading about Sousanis's concept of Flatness I believe that the term “Flatness” relates heavily to the term stagnation. The cave dwellers sit stagnant, not choosing to break free of their chains and search for a new perspective. When I think about flatness I think about it like a stagnant pool of water the surface of which is perfectly flat, like a pane of glass. However when something enters the water, like a stone, this flatness is challenged and ripples are created. These ripples grow and eventually spread across the whole surface of the water, growth and change are the key for not being flat. So in order for the perspective of the cave dwellers to not be flat, they must not only search for new perspectives but also change their thinking so that they will also accept them as being part of the truth. 
+            
+            <span class="clickable" id="second-change"> Add another shadow.</span></p>
+
+        <p><span class="clickable" id="continue-reading">Continue reading</span></p>
+    </section>
+    <!-- part two -->
+    <section id="part-two" class="hidden">
+        <h2>2. Seeing Double</h2>
+
+        <p>After taking a step back and looking at the whole scene, in an attempt to “see double” we get a sense of what's really going on. We can see that these two shapes actually do not interact with each other at all and their movements are completely unaffected by the other. So how does this example relate to seeing double? Seeing double is connected to how we view the scene, in this perspective we can see both the cave wall and the shapes the shadows originate from. Because of this newfound perspective we gain insight on the way this scene works as well as become “less flat” compared to our perspective in the previous scene.
+            <span class="clickable" id="thrid-change"> Freeze shapes.</span> </p>
+
+        <p>When Sousanis first discusses the term “seeing double” he explains how when we look at something both of our eyes view that thing in a slightly different way, we see the objects from multiple perspectives. However it is only when we combine these two perspectives that we can actually see the full picture. This same concept can be applied to the perspective that the cave dwellers have, they only see one perspective of an object. They are limited to only seeing an object's shadow, however if they were able to change the way they view the world then they would be able to see the physical object casting that shadow. 
+            The importance of seeing double is that you not only look at multiple perspectives and try to understand them, but also understand that each one of these perspectives is true in some way. A two dimensional world, such as the cave wall, is not any more or less true than the three dimensional world, they are just different parts of the same truth. In other words “seeing double” or seeing multiple perspectives is important in understanding the complexities of each perspective and helps us to understand what parts of the truth we still do not see.
+            <span class="clickable" id="fourth-change"> Change the shapes movement.</span></p>
+
+        <p><span class="clickable" id="restart">Restart</span> </p>
+    </section>
+    <canvas class="webgl"></canvas>
+</body>
