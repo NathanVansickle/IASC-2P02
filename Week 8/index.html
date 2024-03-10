@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <title>3D Portfolio</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- three.js importmap -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://ga.jspm.io/npm:three@0.158.0/build/three.module.js",
+                "OrbitControls": "https://ga.jspm.io/npm:three@0.158.0/examples/jsm/controls/OrbitControls.js",
+                "lil-gui": "https://ga.jspm.io/npm:lil-gui@0.19.1/dist/lil-gui.esm.js",
+                "GLTFLoader": "https://ga.jspm.io/npm:three@0.158.0/examples/jsm/loaders/GLTFLoader.js"
+            }
+        }
+    </script>
+
+    <!-- three.js -->
+    <script src="script.js" type="module"></script>
+</head>
+<body>
+    <!-- canvas -->
+    <canvas class="webgl"></canvas>
+
+    <!-- splash -->
+    <section class="splash">
+        <h1>Nathan Vansickle</h1>
+    </section>
+
+    <!-- content -->
+    <section class="content" id="first">
+        <h1>About me</h1>
+        <p>My name is Nathan Vansickle and my field of study is Interactive Arts and Science, at Brock University. In this portfolio you can find some of the work that I have created during the semester.</p>
+        <p><span class="clickable" id="click1">View projects</span></p>
+    </section>
+
+    <section class="content hidden" id="second">
+        <h1>Interactive Essay</h1>
+        <p>This interactive essay covers the topic of understanding the second and third dimentions, while also discussing theory found in the book "Unflattening" by Nick Sousanis. By displaying this essay in a 3D space it allows the reading to be fully involved with its content.</p>
+        <p><span class="clickable" id="click2">Next project</span></p>
+    </section>
+
+    <section class="content hidden" id="third">
+        <h1>Data Visualization</h1>
+        <p>This assignment is unfinished, however it will use a text and will make a visual of the data. A possible text is the book "1984" which will make for an interesting visualization because of the topics covered in the book.</p>
+        <p><span class="clickable" id="click3">Back to Home</span></p>
+    </section>
+
+    
+</body>
