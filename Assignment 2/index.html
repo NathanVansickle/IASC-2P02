@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <title>Data Visualization Assignment</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- three.js importmap -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://ga.jspm.io/npm:three@0.158.0/build/three.module.js",
+                "OrbitControls": "https://ga.jspm.io/npm:three@0.158.0/examples/jsm/controls/OrbitControls.js",
+                "lil-gui": "https://ga.jspm.io/npm:lil-gui@0.19.1/dist/lil-gui.esm.js"
+            }
+        }
+    </script>
+
+    <!-- dataviz 1 -->
+    <script src="script.js" type="module"></script>
+
+    <!-- dataviz 2 -->
+    <script src="script2.js" type="module"></script>
+</head>
+<body>
+    <h1>Twelfth Night Data Visualization</h1>
+    <h2>Nathan Vansickle</h2>
+
+    <p>For the data visualisation assignment I have chosen to use Shakespeare’s Twelfth Night as my text. I picked this text since I am already familiar with it, so I thought it would be easier to create a list of search words that can provide an analysis of the story. I also selected it because I thought it would be interesting to try and visualise a play rather than a basic novel. There are two categories I have picked to be visualised, those being settings in the play as well as characters in the play. This provides us with an interesting look at where characters are in the story and gives insight as to what they might be doing. </p>
+
+    <p>This first visualisation is called “Locations in the play” and it shows three different settings in their order of appearance in the play, starting from bottom to top. From this visualisation the first thing we can see is that the play starts on the ocean, which it does by having the main character being in a shipwreck. The main bulk of this visualisation is made up of the word “houses” which suggests that a lot of the story takes place indoors. The word “church” is found right in the middle of the play and is rarely featured elsewhere, even though it is used very little it tells us a lot. Plays are structured in acts, and Twelfth Night is no different, so since the word “church” is only used in one small section we can assume that it is the main focus of an act of the play. There is likely a wedding or a funeral that happens in the play, which relates heavily to the characters, who is getting married? Or, who has died?</p>
+
+    <!-- dataviz 1 -->
+    <div class="canvas-container">
+        <h2>Locations in the play</h2>
+        <canvas class="webgl"></canvas>
+        <div id="parent1"></div>
+        <p>Left click and drag to rotate. Right click and drag to move. Scroll to zoom.</p>
+    </div>
+
+    <p>This next visualisation showcases three of the characters in the play and tells us a lot about them as characters and their roles in the narrative. At first glance what we learn is that these are all main characters since they are featured many times and are present from start to finish. The biggest piece of information we get from this visualisation reveals a major plot point of the play, which is that Viola and Sebastian are almost always in different acts. This is because Viola is pretending to be her missing brother Sebastian, so we can see in which acts she is herself and in which acts she is lying about her identity. </p>
+
+    <p>The way a play is separated into acts is another reason why I choose this text for a visualisation, because I thought it would be interesting and clear what the themes of each act is. This is very true with the character visualisation because of the reason stated above, we can see what acts will feature what characters and how the narrative is told. It flips back and forth between different perspectives, Viola to Sebastian and then back again, so we can see whose story is being told at what time.</p>
+
+    <!-- dataviz 2 -->
+    <div class="canvas-container">
+        <h2>Characters in the play</h2>
+        <canvas class="webgl2"></canvas>
+        <div id="parent2"></div>
+        <p>Left click and drag to rotate. Right click and drag to move. Scroll to zoom.</p>
+    </div>
+
+    <p>As a whole, this visualisation has provided interesting insight into the play Twelfth Night, involving both its settings and characters and showing how they interact. A visualisation such as this might help someone to decide if Twelfth Night is worth the read, because it displays potential themes and narrative structure of the play. </p>
+    
+</body>
